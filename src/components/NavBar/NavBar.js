@@ -5,13 +5,11 @@ const NavBar = () => {
         <nav>
             <h3>E-Make up</h3>
             <div>
-                <ul>
-                    <button>Home</button>
-                    <button>Rimmel</button>
-                    <button>Lipstick</button>
-                    <button>Sunscreens</button>
-                    <button>Perfumes</button>
-                </ul>
+                <button>Home</button>
+                <button>Rimmel</button>
+                <button>Lipstick</button>
+                <button>Sunscreens</button>
+                <button>Perfumes</button>
             </div>
             <CartWidget />
         </nav>
