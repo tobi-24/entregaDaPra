@@ -1,15 +1,16 @@
-import CartWidget from "../CartWidget/CartWidget"; 
+import CartWidget from "../CartWidget/CartWidget";
+import 'bulma/css/bulma.min.css';
 
 const NavBar = () => {
     return (
         <nav>
-            <h3>E-Make up</h3>
-            <div>
-                <button>Home</button>
-                <button>Rimmel</button>
-                <button>Lipstick</button>
-                <button>Sunscreens</button>
-                <button>Perfumes</button>
+            <h3 className="title is-2">E-Make up</h3>
+            <div className="columns field has-addons">
+                <button className="button is-primary is-normal">Home</button>
+                <button className="button is-dark is-normal fas fa-align-center">Rimmel</button>
+                <button className="button is-dark is-normal fas fa-align-center">Lipstick</button>
+                <button className="button is-dark is-normal fas fa-align-center">Sunscreens</button>
+                <button className="button is-dark is-normal fas fa-align-center">Perfumes</button>
             </div>
             <CartWidget />
         </nav>
