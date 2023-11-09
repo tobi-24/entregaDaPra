@@ -1,9 +1,10 @@
 import CartWidget from "../CartWidget/CartWidget";
 import 'bulma/css/bulma.min.css';
+import '../../css/style.css'
 
 const NavBar = () => {
     return (
-        <nav>
+        <nav className="navbar">
             <h3 className="title is-2">E-Make up</h3>
             <div className="columns field has-addons">
                 <button className="button is-primary is-normal">Home</button>

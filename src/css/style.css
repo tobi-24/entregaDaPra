@@ -1,0 +1,9 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.cart{
+    display: flex;
+    margin-right: 2rem;
+}
